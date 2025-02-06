@@ -1,16 +1,48 @@
+body{
+    margin:0px;
+}
+
 .container{
     background-color: #1F2937;
     display:flex;
-    flex-direction: column;
+    flex-direction: column;    
 }
 
 .header{
     display:flex;
     justify-content: space-around;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
+.mainHero{
+   display:flex;
+   flex:1;
+   flex-direction:column;
+   align-items: center;
+   flex-wrap: wrap;
+   max-height: 300px;
+   padding:50px 0px;
+   ;
+   
+}
+
+
+.heroText{
+    display:flex;
+    max-width: 325px;
+    margin:5px;
+}
+
+.testIMG{
+    min-height: 100px;
+    background-color: white;
+    
+}
 ul{
     list-style: none;
-    margin: 0px;
     padding: 0px;
+    display:flex;
+    gap:30px;
+    
 }
