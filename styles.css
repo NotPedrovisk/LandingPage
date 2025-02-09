@@ -43,10 +43,6 @@ body{
     
 }
 
-.testIMG{
-    margin-left:-200px
-}
-
 .headerButton{
     display:flex;
     flex:1;
