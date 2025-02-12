@@ -85,9 +85,36 @@ body{
     
 }
 
+/*QUOTE SECTION*/
+.container3{
+    background-color: #E5E7EB;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:100px;
+    
+    
+}
+.quote{
+    max-width: 65%;
+    margin:auto;
+    text-align: start;
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+}
+
+.author{
+    max-width: 80%;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: end;
+}
+
+
 ul{
     list-style: none;
     padding: 0px;
     display:flex;
-    gap:30px;
+    gap:40px;
 }
