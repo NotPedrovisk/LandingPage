@@ -3,10 +3,12 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/*HEADER SECTION*/
 .container{
     background-color: #1F2937;
     display:flex;
-    flex-direction: column;    
+    flex:1;
+    flex-direction: column;
 }
 
 .header{
@@ -15,12 +17,12 @@ body{
     color: #E5E7EB;
     font-size: 18px;
     margin-left: 50px;
-    
+
 }
 
 .mainHero{
    display:flex;
-   flex:auto;
+   flex:1;
    flex-direction:column;
    align-items: center;
    flex-wrap: wrap;
@@ -34,18 +36,17 @@ body{
     margin:5px;
     font-size:18px;
     color:#E5E7EB
-    
+
 }
 .heroText.Main{
     font-size: 48px;
     font-weight: 900;
     color:#F9FAF8;
-    
+
 }
 
 .headerButton{
     display:flex;
-    flex:1;
     margin-left: -230px;
     margin-top:6px;
     padding:5px 20px;
@@ -55,15 +56,27 @@ body{
     border-radius: 10%;
 }
 
+/*INFO SECTION*/
 .container2{
     display:flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 .infoHeader{
     font-size: 36px;
     color:#1f2937;
     font-weight: 900;
+    padding: 50px;
+}
+
+
+.subtext{
+    max-width: 150px;
+    text-align: center;
+    color:#1f2937;
+
+    
 }
 
 ul{
@@ -71,5 +84,5 @@ ul{
     padding: 0px;
     display:flex;
     gap:30px;
-    
+
 }
