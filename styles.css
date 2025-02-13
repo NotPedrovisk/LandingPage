@@ -58,7 +58,7 @@ body{
     background-color: #3882F6;
     border-color: #3882F6;
     color: #E5E7EB;
-    border-radius: 10%;
+    border-radius: 8px;
 }
 
 /*INFO SECTION*/
@@ -111,6 +111,53 @@ body{
     text-align: end;
 }
 
+/*CALL TO ACTION SECTION*/
+.container4{
+    display:flex;
+    justify-content: center;
+    padding:100px
+
+}
+
+.blueContainer{
+    display:flex;
+    flex-flow: column wrap;
+    justify-content:center;
+    align-content: space-around;
+    background-color: #3882F6 ;
+    border-radius: 10px;
+    width: 900px;
+    max-height: 80px;
+    padding:50px 80px;
+
+}
+
+.actionHeader{
+    font-size:24px;
+    font-weight: 700;
+    
+}
+
+.actionText{
+    font-size: 18px;
+}
+
+.actionHeader,.actionText{
+   
+    color:#E5E7EB
+}
+
+.actionButton{
+    width: 120px;
+    background-color: #3882F6;
+    border: solid 2px #E5E7EB;
+    border-radius: 5px;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding:8px;
+    
+    
+}
 
 ul{
     list-style: none;
