@@ -159,6 +159,21 @@ body{
     
 }
 
+/*FOOTER SECTION*/
+
+.container5{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#1F2937
+
+}
+
+footer{
+    padding:30px;
+    color:#E5E7EB
+}
+
 ul{
     list-style: none;
     padding: 0px;
